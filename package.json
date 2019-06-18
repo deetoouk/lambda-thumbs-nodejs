@@ -1,0 +1,33 @@
+{
+  "name": "lambda-thumbs",
+  "version": "1.0.0",
+  "description": "Generates thumbnails and saves metadata to dynamodb when an image is uploaded to an s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deetoouk/lambda-thumbs-nodejs.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "thumbs",
+    "image"
+  ],
+  "author": "Jordan Dobrev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deetoouk/lambda-thumbs-nodejs/issues"
+  },
+  "homepage": "https://github.com/deetoouk/lambda-thumbs-nodejs#readme",
+  "dependencies": {
+    "async": "^3.0.1",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.477.0",
+    "gm": "^1.23.1"
+  }
+}
